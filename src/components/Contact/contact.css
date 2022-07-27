@@ -1,0 +1,67 @@
+.container-contact {
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  /* box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); */
+  box-shadow: 10px 10px 50px #04044a;
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-margin-start: 25%;
+  -webkit-margin-end: 25%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container-contact label,
+.container-contact input,
+.container-contact textarea,
+.container-contact button {
+  display: block;
+  width: 100%;
+  padding: 0.8em;
+  border-radius: 10px;
+}
+
+.container-contact input,
+.container-contact textarea,
+.container-contact button {
+  box-shadow: 0.2s;
+  background: #d3d3d3;
+}
+
+.container-contact input:focus,
+.container-contact input:hover,
+.container-contact textarea:hover,
+.container-contact textarea:focus {
+  outline: none;
+  border-color: #04044a;
+  box-shadow: 0 0 0 3px #273297;
+}
+
+.container-contact button {
+  margin-top: 10px;
+  color: #273297;
+  cursor: pointer;
+}
+
+.container-contact button:hover {
+  color: #fff;
+  background: #273297;
+}
+
+.container-contact textarea {
+  resize: vertical;
+}
+
+@media (max-width: 999px) {
+  .container-contact {
+    font-size: 0.8em;
+    padding: 20px;
+    -webkit-margin-start: 15%;
+    -webkit-margin-end: 15%;
+  }
+}
