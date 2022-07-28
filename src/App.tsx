@@ -1,23 +1,24 @@
-import { useState } from 'react'
 import './App.css'
-import Header from './components/Header/header'
-import Presentation from './components/Presentation/presentation'
-import About from './components/About/about'
-import Projects from './components/Projects/projects'
-import Contact from './components/Contact/contact'
-import Footer from './components/Footer/footer'
+
+import NavBar from './components/Navbar/navbar'
+import { Router } from './Router'
+import { BrowserRouter } from "react-router-dom"
+
+import Home from './Pages/Home'
+
+
 
 function App() {
 
   return (
-    <>
-    <Header></Header>
-    <Presentation></Presentation>
-    <About></About>
-    <Projects></Projects>
-    <Contact></Contact>
-    <Footer></Footer>
-    </>
+    <BrowserRouter>
+    <header>
+      <NavBar/>
+    </header>
+    <main>
+      <Router/>
+    </main>
+    </BrowserRouter>
   )
 }
 
