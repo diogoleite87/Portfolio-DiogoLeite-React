@@ -2,7 +2,7 @@
   "name": "my-vue-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "Portfolio-DiogoLeite-React/",
+  "homepage": "portfolio-diogoleite/",
   "type": "module",
   "scripts": {
     "dev": "vite",
