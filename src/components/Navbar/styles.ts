@@ -48,7 +48,10 @@ export const Nav = styled.nav`
   /* color: #fff; */
   align-items: center;
   position: relative;
-  background: #04044a;
+  /* background: #04044a; */
+  /* background: black; */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 
   @media (max-width: 678px) {
     width: 100vw;
