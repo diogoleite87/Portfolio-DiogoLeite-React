@@ -1,4 +1,3 @@
-import { InputHTMLAttributes } from "react";
 import "./style.css"
 
 interface IProps {
