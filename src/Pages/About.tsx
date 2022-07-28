@@ -1,9 +1,9 @@
-import About from "../components/About/about"
+import ContainerAbout from "../components/About"
 
 function Home() {
     return (
         <>
-            <About/>
+            <ContainerAbout/>
         </>
 
     )

@@ -1,9 +1,9 @@
-// import Projects from '../components/Projects'
+import Aaaa from '../components/Projects'
 
 function Projects() {
     return (
         <>
-            {/* <Projects/> */}
+            <Aaaa/>
         </>
 
     )

@@ -1,4 +1,4 @@
-import "./presentation.css";
+import "./style.css";
 import Memoji from "../../img/memoji.png"
 
 function Presentation() {

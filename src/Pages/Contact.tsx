@@ -1,9 +1,9 @@
-// import Contact from "../../components/Contact/contact"
+import ContainerContact from "../components/Contact"
 
 function Contact() {
     return (
         <>
-            {/* <Contact/> */}
+            <ContainerContact/>
         </>
 
     )

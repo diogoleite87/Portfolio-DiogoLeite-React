@@ -1,4 +1,4 @@
-import './about.css'
+import './style.css'
 import Profileimg from '../../img/profileimg.png'
 
 function About () {

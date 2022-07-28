@@ -1,9 +1,9 @@
-import Presentation from "../components/Presentation/presentation"
+import ContainerPresentation from "../components/Presentation"
 
 function Home() {
     return (
         <>
-            <Presentation />
+            <ContainerPresentation />
         </>
 
     )
