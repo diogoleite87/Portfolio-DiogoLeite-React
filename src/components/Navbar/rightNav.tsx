@@ -13,24 +13,26 @@ function RightNav(props: Props) {
 
   return (
     <S.Ul open={props.open}>
+      <React.Suspense fallback={<h2>Loading...</h2>}>    
+      <NavLink to="/" reloadDocument>
+        <li>Início</li>
+      </NavLink>
 
-    <NavLink to="/">
-      <li>Início</li>
-    </NavLink>
+        <NavLink to="/about" reloadDocument>
+          <li>Sobre</li>
+        </NavLink>
 
-    <NavLink to="/about">
-      <li>Sobre</li>
-    </NavLink>
+        <NavLink to="/projects" reloadDocument>
+          <li>Projetos</li>
+        </NavLink>
 
-    <NavLink to="/projects">
-      <li>Projetos</li>
-    </NavLink>
+        <NavLink to="/contact" reloadDocument>
+          <li>Contato</li>
+        </NavLink>
+        </React.Suspense>
 
-    <NavLink to="/contact">
-      <li>Contato</li>
-    </NavLink>
 
-  </S.Ul>
+    </S.Ul>
   )
 }
 

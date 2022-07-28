@@ -1,9 +1,12 @@
 import ContainerContact from "../components/Contact"
+import React from "react"
 
 function Contact() {
     return (
         <>
-            <ContainerContact/>
+            <React.Suspense fallback={<h2>Loading...</h2>}>
+                <ContainerContact />
+            </React.Suspense>
         </>
 
     )
