@@ -8,7 +8,7 @@ import Contact from "./Pages/Contact";
 export function Router(){
    return(
        <Routes>
-           <Route element = { <Home/> }  path="/"/>
+           <Route element = { <Home/> }  path="/" />
            <Route element = { <About/> }  path="/about" />
            <Route element = { <Projects/> }  path="/projects" />
            <Route element = { <Contact/> }  path="/contact" />

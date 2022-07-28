@@ -10,19 +10,19 @@ function RightNav(props: Props) {
 
   return (
     <S.Ul open={props.open}>
-      <NavLink to="/" reloadDocument>
+      <NavLink to="/">
         <li>Início</li>
       </NavLink>
 
-        <NavLink to="/about" reloadDocument>
+        <NavLink to="/about">
           <li>Sobre</li>
         </NavLink>
 
-        <NavLink to="/projects" reloadDocument>
+        <NavLink to="/projects">
           <li>Projetos</li>
         </NavLink>
 
-        <NavLink to="/contact" reloadDocument>
+        <NavLink to="/contact">
           <li>Contato</li>
         </NavLink>
 
