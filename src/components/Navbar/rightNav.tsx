@@ -1,8 +1,5 @@
-import React from 'react'
 import * as S from './styles';
-
-
-import { Routes, NavLink, Router } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 type Props = {
@@ -13,7 +10,6 @@ function RightNav(props: Props) {
 
   return (
     <S.Ul open={props.open}>
-      <React.Suspense fallback={<h2>Loading...</h2>}>    
       <NavLink to="/" reloadDocument>
         <li>Início</li>
       </NavLink>
@@ -29,7 +25,6 @@ function RightNav(props: Props) {
         <NavLink to="/contact" reloadDocument>
           <li>Contato</li>
         </NavLink>
-        </React.Suspense>
 
 
     </S.Ul>

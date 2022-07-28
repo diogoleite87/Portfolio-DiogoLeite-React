@@ -42,7 +42,8 @@
   transition: 0.5s;
 }
 
-.card:hover .content, .card-special:hover .content {
+.card:hover .content,
+.card-special:hover .content {
   transform: translateY(0px);
   opacity: 1;
 }
@@ -96,4 +97,12 @@
   background: #a5971a;
   box-shadow: 10px 10px 50px #a5971a;
   color: #fff;
+}
+
+@media (max-width: 600px) {
+  .card-special .content,
+  .card .content{
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
