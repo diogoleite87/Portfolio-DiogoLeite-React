@@ -1,5 +1,6 @@
 .about {
   position: relative;
+  min-height: 90vh;
 }
 
 .about-content {

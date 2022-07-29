@@ -4,6 +4,7 @@
     justify-content: space-between;
     -webkit-margin-start: 15vh;
     -webkit-margin-end: 15vh;
+    min-height: 90vh;
 }
 
 .opentowork {
@@ -27,9 +28,11 @@
     font-size: 1.5em;
 }
 
-/* .container-presentation img {
-    box-shadow: 15px 15px 15px #04044a;
-} */
+.container-presentation img {
+    /* box-shadow: 15px 15px 15px #04044a; */
+    height: 420px;
+    width: 400px;
+}
 
 .container-presentation a {
     position: relative;
