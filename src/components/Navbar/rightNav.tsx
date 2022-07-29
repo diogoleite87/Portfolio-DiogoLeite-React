@@ -3,27 +3,30 @@ import { NavLink } from "react-router-dom";
 
 
 type Props = {
-  open: boolean;
+  setState(): void
+  open: boolean
 }
 
-function RightNav(props: Props) {
+function RightNav({ setState, open }: Props) {
+
+  const handleCloseNavBar = () => setState()
 
   return (
-    <S.Ul open={props.open}>
+    <S.Ul open={open}>
       <NavLink to="/">
-        <li>Início</li>
+        <li onClick={handleCloseNavBar}>Início</li>
       </NavLink>
 
         <NavLink to="/about">
-          <li>Sobre</li>
+          <li onClick={handleCloseNavBar}>Sobre</li>
         </NavLink>
 
         <NavLink to="/projects">
-          <li>Projetos</li>
+          <li onClick={handleCloseNavBar}>Projetos</li>
         </NavLink>
 
         <NavLink to="/contact">
-          <li>Contato</li>
+          <li onClick={handleCloseNavBar}>Contato</li>
         </NavLink>
 
 
