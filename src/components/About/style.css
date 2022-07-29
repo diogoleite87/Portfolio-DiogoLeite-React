@@ -1,6 +1,7 @@
 .about {
   position: relative;
   min-height: 90vh;
+  margin-bottom: 40px;
 }
 
 .about-content {
