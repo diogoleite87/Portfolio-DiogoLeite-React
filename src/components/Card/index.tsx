@@ -1,4 +1,5 @@
 import "./style.css"
+import DetailsButton from '../DetailsButton/index'
 
 interface IProps {
     name: string,
@@ -21,7 +22,7 @@ function Card(props: IProps) {
                     <h2>{id}</h2>
                     <h3>{name}</h3>
                     <p>{description}</p>
-                    <a href={href} target="_blank">Mais Informações</a>
+                    <DetailsButton href={href} type={type}/>
                 </div>
 
             </div>

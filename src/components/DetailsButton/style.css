@@ -1,0 +1,26 @@
+.button-yellow,
+.button-blue {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #fff;
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.button-blue:hover {
+  transition: 0.4s;
+  background: #273297;
+  box-shadow: 10px 10px 50px #0b0b7c;
+  color: #fff;
+}
+
+.button-yellow:hover {
+  transition: 0.4s;
+  background: #a5971a;
+  box-shadow: 10px 10px 50px #a5971a;
+  color: #fff;
+}
