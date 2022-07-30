@@ -39,6 +39,10 @@
   text-align: justify;
 }
 
+.button-contact {
+  margin-top: 15px;
+}
+
 @media (max-width: 999px) {
   .about-content img {
     height: 100%;

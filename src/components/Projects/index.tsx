@@ -1,5 +1,7 @@
 import './style.css'
 import Card from '../Card'
+import ButtonGitHub from '../ButtonGitHub'
+import ButtonLinkedin from '../ButtonLinkedin'
 
 
 function Projects() {
@@ -26,6 +28,11 @@ function Projects() {
                 <Card name='PROJETO IC UFOP' description='Similaridade entre Músicas em Plataformas de Streaming: Uma Abordagem via Metaheurísticas BRKGA e KNN PARA O Problema de Minimização da Soma das Diversidades - Trabalho de Iniciação Cientifica - UFOP' id='05' href='https://github.com/diogoleite87/IC-UFOP-BRKGA' type={1}></Card>
                 <Card name='Alocação de Professores' description='Alocação de professores em disciplinas do departamento DECSI-UFOP com base em suas preferências, respeitando as capacidades e limitações. Trabalho desenvolvido durante disciplina AEDS3 do curso Sistemas de Informação - UFOP.' id='06' href='https://github.com/diogoleite87/TP02-AEDS3-UFOP' type={1}></Card>
                 {/* <Card name='' description='' id='06' href='' type={1}></Card> */}
+            </div>
+
+            <div className='button-contact'>
+                <ButtonGitHub />
+                <ButtonLinkedin />
             </div>
         </div>
     )

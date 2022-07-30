@@ -1,5 +1,7 @@
 import './style.css'
 import Profileimg from '../../img/profileimg.png'
+import ButtonGitHub from '../ButtonGitHub'
+import ButtonLinkedin from '../ButtonLinkedin'
 
 function About () {
     return (
@@ -24,6 +26,10 @@ function About () {
                         tecnologia.
                     </p>
                 </div>
+            </div>
+            <div className='button-contact'>
+                <ButtonGitHub />
+                <ButtonLinkedin />
             </div>
         </div>
     )

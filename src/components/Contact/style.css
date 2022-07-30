@@ -57,6 +57,12 @@
   resize: vertical;
 }
 
+.button-contact {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
 @media (max-width: 999px) {
   .container-contact {
     font-size: 0.8em;

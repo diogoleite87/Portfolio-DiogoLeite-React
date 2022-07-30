@@ -1,4 +1,6 @@
 import './style.css'
+import ButtonGitHub from '../ButtonGitHub'
+import ButtonLinkedin from '../ButtonLinkedin'
 
 function Contact() {
     return (
@@ -16,7 +18,10 @@ function Contact() {
                     <button type="submit">Enviar</button>
                 </form>
             </div>
-
+            <div className='button-contact'>
+                <ButtonGitHub />
+                <ButtonLinkedin />
+            </div>
         </>
     )
 }
