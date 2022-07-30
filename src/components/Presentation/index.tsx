@@ -1,5 +1,7 @@
 import "./style.css";
 import Memoji from "../../img/memoji.png"
+import ButtonGitHub from "../ButtonGitHub";
+import ButtonLinkedin from "../ButtonLinkedin";
 
 function Presentation() {
   return (
@@ -9,12 +11,8 @@ function Presentation() {
         <h2>Eu sou o Diogo Leite,</h2>
         <h4>acesse meu github e linkedin!</h4>
         <div className="button-presentation">
-          <a href="https://github.com/diogoleite87" target="_blank">
-            Github
-          </a>
-          <a href="https://www.linkedin.com/in/diogoleitelucas" target="_blank">
-            Linkedin
-          </a>
+          <ButtonGitHub/>
+          <ButtonLinkedin/>
         </div>
         <h4 className="opentowork">#OpenToWork</h4>
       </div>
