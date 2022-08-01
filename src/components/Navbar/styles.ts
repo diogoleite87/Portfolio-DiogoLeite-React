@@ -44,12 +44,9 @@ export const Nav = styled.nav`
   height: 100%;
   display: flex;
   justify-content: space-between;
-  /* background-color: #fdfdfdfa; */
-  /* color: #fff; */
   align-items: center;
   position: relative;
   /* background: #04044a; */
-  /* background: black; */
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 
@@ -79,11 +76,9 @@ export const Ul = styled.ul<INav>`
   top: 0;
   margin-top: -15px;
   justify-content: flex-end;
-  /* margin-top: 10vh; */
   align-items: center;
   font-size: 18px;
   height: 110px;
-  /* color: #fff; */
   margin-left: 20px;
 
 
@@ -117,7 +112,6 @@ export const Ul = styled.ul<INav>`
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     z-index: 9;
-    /* justify-content: normal; */
     border-bottom-left-radius: 20px;
     li {
       color: #fff;
@@ -132,8 +126,6 @@ export const Ul = styled.ul<INav>`
 
 export const Title = styled.text`
   margin: 20px 20px 20px 7%;
-  /* width: 160px;
-  height: 70px; */
   font-size: 1.8em;
   object-fit: contain;
 

@@ -3,9 +3,6 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  /* position: relative; */
-  /* max-width: 1200px; */
   flex-wrap: wrap;
   z-index: 0;
-  /* min-height: 100vh; */
 }

@@ -55,7 +55,6 @@ header nav {
     text-align: center;
   }
   .nav-list {
-    /* font-size: 80%; */
     display: flex;
     justify-items: center;
     justify-content: space-evenly;
