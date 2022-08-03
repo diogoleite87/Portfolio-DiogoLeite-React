@@ -89,7 +89,8 @@
 
 @media (max-width: 600px) {
   .card-special .content,
-  .card .content{
+  .card .content,
+  .card-master .content{
     transform: translateY(0px);
     opacity: 1;
   }
