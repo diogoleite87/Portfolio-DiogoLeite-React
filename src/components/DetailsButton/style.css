@@ -1,5 +1,6 @@
 .button-yellow,
-.button-blue {
+.button-blue,
+.button-red {
   position: relative;
   display: inline-block;
   padding: 8px 20px;
@@ -22,5 +23,12 @@
   transition: 0.4s;
   background: #a5971a;
   box-shadow: 10px 10px 50px #a5971a;
+  color: #fff;
+}
+
+.button-red:hover {
+  transition: 0.4s;
+  background: #c53920;
+  box-shadow: 10px 10px 50px #c53920;
   color: #fff;
 }

@@ -12,7 +12,7 @@ interface IProps {
 function Card(props: IProps) {
 
     const { name, description, id, href, type } = props;
-    const cardStyle = type === 0 ? 'card-special' : 'card'
+    const cardStyle = type === 0 ? 'card-special' : type === 1 ? 'card' : 'card-master'
 
     return (
         <div className="container">
